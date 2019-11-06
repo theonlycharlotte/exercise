@@ -28,9 +28,6 @@ function showPost(post) {
 
 
 
-    const body = postCopy.querySelector("#body")
-    body.innerHTML = post.content.rendered;
-
     const price = postCopy.querySelector("#price")
     price.textContent = post.price;
 
@@ -39,9 +36,6 @@ function showPost(post) {
 
     const time = postCopy.querySelector("#time")
     time.textContent = post.time_and_date;
-
-    const support = postCopy.querySelector("#support")
-    support.textContent = post.support_artist;
 
     const description = postCopy.querySelector("#description")
     description.textContent = post.description;
