@@ -1,0 +1,24 @@
+@import url("https://use.typekit.net/oxy6hdx.css");
+
+/*
+font-family: futura-pt, sans-serif;
+font-weight: 300;
+font-style: normal;
+*/
+
+
+body {
+    background-image: linear-gradient(to left, #e66465, #9198e5);
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
