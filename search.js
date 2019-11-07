@@ -20,16 +20,6 @@ const search = urlParams.get("search");
  function showPost(post) {
      console.log(post)
 
-     const template = document.querySelector(".eventsTemplate").content;
-     const postCopy = template.cloneNode(true);
-
-     const h1 = postCopy.querySelector("h1");
-     h1.textContent = post.title.rendered;
-
-     const a = postCopy.querySelector("a");
-     a.href="subpage.html?id="+post.id;
-
-
 
 
 
